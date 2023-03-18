@@ -1,5 +1,4 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-undef */
+
 function generatingEasyCards(container) {
     const battleField = document.createElement("div");
     battleField.classList.add("battle-field");
