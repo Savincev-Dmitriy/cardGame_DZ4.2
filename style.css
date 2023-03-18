@@ -1,0 +1,237 @@
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+/* stylelint-disable selector-class-pattern */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* @font-face {
+    font-family: StratosSkyeng;
+    src: url("./DesktopFonts/stratosskyeng-black.otf"),
+        url("./DesktopFonts/stratosskyeng-blackitalic.otf"),
+        url("./DesktopFonts/stratosskyeng-bold.otf"),
+        url("./DesktopFonts/stratosskyeng-bolditalic.otf"),
+        url("./DesktopFonts/stratosskyeng-extrabold.otf"),
+        url("./DesktopFonts/stratosskyeng-extrabolditalic.otf"),
+        url("/./DesktopFonts/stratosskyeng-extralight.otf"),
+        url("./DesktopFonts/stratosskyeng-extralightitalic.otf"),
+        url("./DesktopFonts/stratosskyeng-italic.otf"),
+        url("./DesktopFonts/stratosskyeng-light.otf"),
+        url("./DesktopFonts/stratosskyeng-lightitalic.otf"),
+        url("./DesktopFonts/stratosskyeng-medium.otf"),
+        url("./DesktopFonts/stratosskyeng-mediumitalic.otf"),
+        url("./DesktopFonts/stratosskyeng-regular.otf"),
+        url("./DesktopFonts/stratosskyeng-semibold.otf"),
+        url("./DesktopFonts/stratosskyeng-semibolditalic.otf"),
+        url("./DesktopFonts/stratosskyeng-semilight.otf"),
+        url("./DesktopFonts/stratosskyeng-semilightitalic.otf"),
+        url("./DesktopFonts/stratosskyeng-thin.otf"),
+        url("./DesktopFonts/stratosskyeng-thinitalic.otf");
+} */
+
+@font-face {
+    font-family: StratosSkyeng;
+    src: url("./WebFonts/stratosskyengweb-regular.woff"),
+        url("./WebFonts/stratosskyengweb-black.woff"),
+        url("./WebFonts/stratosskyengweb-black.woff2"),
+        url("./WebFonts/stratosskyengweb-blackitalic.woff"),
+        url("./WebFonts/stratosskyengweb-blackitalic.woff2"),
+        url("./WebFonts/stratosskyengweb-bold.woff"),
+        url("./WebFonts/stratosskyengweb-bold.woff2"),
+        url("./WebFonts/stratosskyengweb-bolditalic.woff"),
+        url("./WebFonts/stratosskyengweb-bolditalic.woff2"),
+        url("./WebFonts/stratosskyengweb-extrabold.woff"),
+        url("./WebFonts/stratosskyengweb-extrabold.woff2"),
+        url("./WebFonts/stratosskyengweb-extrabolditalic.woff"),
+        url("./WebFonts/stratosskyengweb-extrabolditalic.woff2"),
+        url("./WebFonts/stratosskyengweb-extralight.woff"),
+        url("./WebFonts/stratosskyengweb-extralight.woff2"),
+        url("./WebFonts/stratosskyengweb-extralightitalic.woff"),
+        url("./WebFonts/stratosskyengweb-extralightitalic.woff2"),
+        url("./WebFonts/stratosskyengweb-italic.woff"),
+        url("./WebFonts/stratosskyengweb-italic.woff2"),
+        url("./WebFonts/stratosskyengweb-light.woff"),
+        url("./WebFonts/stratosskyengweb-light.woff2"),
+        url("./WebFonts/stratosskyengweb-lightitalic.woff"),
+        url("./WebFonts/stratosskyengweb-lightitalic.woff2"),
+        url("./WebFonts/stratosskyengweb-medium.woff"),
+        url("./WebFonts/stratosskyengweb-medium.woff2"),
+        url("./WebFonts/stratosskyengweb-mediumitalic.woff"),
+        url("./WebFonts/stratosskyengweb-mediumitalic.woff2"),
+        url("./WebFonts/stratosskyengweb-regular.woff"),
+        url("./WebFonts/stratosskyengweb-regular.woff2"),
+        url("./WebFonts/stratosskyengweb-semibold.woff"),
+        url("./WebFonts/stratosskyengweb-semibold.woff2"),
+        url("./WebFonts/stratosskyengweb-semibolditalic.woff"),
+        url("./WebFonts/stratosskyengweb-semibolditalic.woff2"),
+        url("./WebFonts/stratosskyengweb-semilight.woff"),
+        url("./WebFonts/stratosskyengweb-semilight.woff2"),
+        url("./WebFonts/stratosskyengweb-semilightitalic.woff"),
+        url("./WebFonts/stratosskyengweb-semilightitalic.woff2"),
+        url("./WebFonts/stratosskyengweb-thin.woff"),
+        url("./WebFonts/stratosskyengweb-thin.woff2"),
+        url("./WebFonts/stratosskyengweb-thinitalic.woff"),
+        url("./WebFonts/stratosskyengweb-thinitalic.woff2");
+}
+
+body {
+    background-color: #004980;
+}
+
+.app {
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    width: 480px;
+    height: 459px;
+    background: #c2f5ff;
+    border-radius: 12px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.title {
+    font-family: StratosSkyeng;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #004980;
+    width: 208px;
+    height: 96px;
+    text-align: center;
+}
+
+.picker-challenge {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+}
+
+.btn {
+    width: 237px;
+    height: 50px;
+    cursor: pointer;
+    background: #7ac100;
+    border-radius: 12px;
+    border: none;
+    font-family: StratosSkyeng;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.button {
+    width: 94px;
+    height: 98px;
+    cursor: pointer;
+    font-family: StratosSkyeng;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    color: #0080c1;
+    border: none;
+    border-radius: 12px;
+    transition: all 0.5s;
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
+
+.selected {
+    width: 94px;
+    height: 98px;
+    cursor: pointer;
+    font-family: StratosSkyeng;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    color: #0080c1;
+    border-radius: 19px;
+    border-color: #7ac100;
+}
+
+.header {
+    width: 520px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.timer-button {
+    width: 117px;
+    height: 44px;
+    font-size: 14px;
+}
+
+.timer-field {
+    color: #7ac100;
+}
+
+.battle-field {
+    height: 300px;
+    width: 600px;
+}
+
+.scene {
+    display: flex;
+    width: 600px;
+    height: 133px;
+    margin: 40px 0;
+    perspective: 600px;
+}
+
+.CARD {
+    width: 110px;
+    height: 100%;
+    position: relative;
+    transition: all 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+
+.card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 260px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    backface-visibility: hidden;
+}
+
+.card-face-front {
+    background-image: url("./image/backCard.png");
+    background-repeat: no-repeat;
+}
+
+.card-face-back {
+    background-image: url("./image/jack-of-hearts.png");
+    background-repeat: no-repeat;
+    transform: rotateY(180deg);
+}
+
+.CARD.is-flipped {
+    transform: rotateY(180deg);
+}
